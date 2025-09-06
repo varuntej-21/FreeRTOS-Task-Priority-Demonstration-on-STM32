@@ -53,7 +53,9 @@ const osThreadAttr_t Task2_attributes = {
 ```
 Result: Only the Green LED blinks. The Red LED remains off.
 ![IMG_20250906_194838](https://github.com/user-attachments/assets/28ca4bd9-20c0-44c6-a017-5f85f4d7f2c9)
-Scenario 2: Preemptive Scheduling (Task 2 > Task 1)
+
+
+### Scenario 2: Preemptive Scheduling (Task 2 > Task 1)
 When Task2 has the higher priority, it will always run, and Task1 will be starved of CPU time.
 
 **Code:**
@@ -74,7 +76,7 @@ Result: Only the Red LED blinks. The Green LED remains off.
 ![IMG_20250906_195041](https://github.com/user-attachments/assets/a0ed67a8-1c30-4484-b196-1b1e39205bf4)
 
 
-Scenario 3: Round-Robin Scheduling (Task 1 == Task 2)
+### Scenario 3: Round-Robin Scheduling (Task 1 == Task 2)
 When both tasks have the same priority, the scheduler uses time-slicing to share CPU time between them, making them appear to run concurrently.
 
 Code:
