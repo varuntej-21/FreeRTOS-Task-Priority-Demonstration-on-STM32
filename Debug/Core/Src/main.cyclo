@@ -1,0 +1,6 @@
+../Core/Src/main.c:42:5:main	1
+../Core/Src/main.c:60:6:Task1_Function	3
+../Core/Src/main.c:93:6:Task2_Function	3
+../Core/Src/main.c:126:6:SystemClock_Config	1
+../Core/Src/main.c:156:13:MX_GPIO_Init	1
+../Core/Src/main.c:170:6:Error_Handler	1
