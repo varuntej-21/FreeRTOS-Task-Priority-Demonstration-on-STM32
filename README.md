@@ -93,6 +93,7 @@ const osThreadAttr_t Task2_attributes = {
   .stack_size = 128 * 4,
   .priority = osPriorityHigh
 };
+```
 Result: Both the Green LED and the Red LED blink together.
 ![IMG_20250906_194923](https://github.com/user-attachments/assets/35dc66de-4e8a-45c2-9efe-460a59615636)
-```
+
